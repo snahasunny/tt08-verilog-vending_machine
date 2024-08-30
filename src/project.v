@@ -23,6 +23,17 @@ module tt_um_vending_machine (
 
   // List all unused inputs to prevent warnings
   wire _unused = &{ena, clk, rst_n, 1'b0};
+ 
+    VendingMachine_0 VendingMachine_0(
+        .item_number(ui_in[3:0]),
+        .nickel_in(ui_in[4]),
+        .dime_in(ui_in[5]),
+        .clock(ui_in[6]), 
+        .reset(ui_in[7])
+        .nickel_out(uo_out[0], 
+        .dispense(uo_out[1]
+
+        
     
 
 endmodule
