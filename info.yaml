@@ -23,7 +23,7 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[3:0]: "item"
+  ui[3:0]: "item_number"
   ui[4]: "nickel_in"
   ui[5]: "dime_in"
   ui[6]: "clock"
