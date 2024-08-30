@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+A vending machine works by accepting payment, allowing the customer to select a product, and then dispensing that product automatically. Once payment is made, the machine verifies it, activates a motor to release the chosen item, and delivers it to a retrieval tray where the customer can collect it.
 
 ## How to test
 
@@ -17,4 +17,32 @@ Explain how to use your project
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+ 1. Payment Processing:
+   - Coin and Note Acceptors
+   - Card Readers
+   - Mobile Payment
+
+ 2. User Interface:
+   - Keypads/Touchscreens:
+   - *Display Screens( LCD or LED screens)
+
+ 3. Product Dispensing Mechanism:
+   - Motors and Sensors
+   - Microcontrollers
+
+ 4. Inventory Management:
+   - Sensors
+   - Remote Monitoring
+
+ 5. Security and Anti-Tampering:
+   - Cameras and Alarms
+   - Encryption
+
+ 6. Energy Management:
+   - Power Management Systems
+ 7. Communication Systems:
+   - Networking
+
+ 8. Lighting and Indicators:
+   - LED Indicators
+   - Lighting
