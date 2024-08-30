@@ -20,6 +20,7 @@ module tt_um_vending_machine (
   assign uo_out  = ui_in + uio_in;  // Example: ou_out is the sum of ui_in and uio_in
   assign uio_out = 0;
   assign uio_oe  = 0;
+  assign uo_out[7:2] = 0;
 
   // List all unused inputs to prevent warnings
   wire _unused = &{ena, clk, rst_n, 1'b0};
@@ -31,9 +32,7 @@ module tt_um_vending_machine (
         .clock(ui_in[6]), 
         .reset(ui_in[7])
         .nickel_out(uo_out[0], 
-        .dispense(uo_out[1]
-
-        
-    
-
+        .dispense(uo_out[1])
+                  
+     );
 endmodule
