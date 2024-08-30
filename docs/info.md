@@ -13,7 +13,7 @@ A vending machine works by accepting payment, allowing the customer to select a 
 
 ## How to test
 
-Explain how to use your project
+
 Unit Tests: Test individual components (coin recognition, bill validation, product dispensing, change calculation).
 Integration Tests: Test interactions between components (coin mechanism, product dispenser).
 End-to-End Tests: Simulate user actions (purchase, payment, error handling, accessibility).
