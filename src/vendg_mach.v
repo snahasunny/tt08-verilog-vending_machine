@@ -1,4 +1,4 @@
-module VendingMachine(
+module VendingMachine_0(
  input [3:0] item_number,
  input nickel_in, dime_in, clock, reset,
  output reg nickel_out, dispense
